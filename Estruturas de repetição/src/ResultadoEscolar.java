@@ -1,11 +1,11 @@
 public class ResultadoEscolar {
     public static void main(String[] args) {
-        int nota = 8;
+        int nota = 6;
 
-        if (nota == 7) {
-            System.out.println( "Aprovado com Distinção");
-        } else if (nota > 7 ) {
-            System.out.println( "Aprovado com louvor");
+        if (nota >= 7) {
+            System.out.println( "Aprovado com Louvor");
+        } else if (nota >=5 && nota < 7 ) {
+            System.out.println( "Recuperação!");
             
         }else {
             System.out.println("Reprovado");
