@@ -4,7 +4,8 @@ public class SwitchCase {
 
         switch (sigla) {
             case "P": {
-                System.out.println("Pequeno") ; break;
+                System.out.println("Pequeno") ; 
+                break;
             }
               case "M":{
                 System.out.println("Medio" );
